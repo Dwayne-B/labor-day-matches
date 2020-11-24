@@ -10,7 +10,7 @@ import split from "../helpers/splitplayers.js";
 //use this to add a  base router when sereved from a sub directory
 //use HashRouter instead much simpler
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router
   Route,
   Link
 } from "react-router-dom";
@@ -115,12 +115,12 @@ class App extends Component {
       Link to = '/roster' > < button onClick = {
         this.localState
       }
-      className = 'start' > START < i class = "fa fa-arrow-circle-o-right"
-      aria - hidden = "true" > < /i></button > < /Link>
+      className = 'start' > START < i class = "fa fa-arrow-circle-o-right" >
+      < /i></button > < /Link>
 
       <
-      /section> <
-      /Route> <
+      /section> < /
+      Route > <
       Route path = '/roster'
       exact >
       <
@@ -139,8 +139,8 @@ class App extends Component {
       />
 
       <
-      /section> <
-      /Route> <
+      /section> < /
+      Route > <
       Route path = '/match' >
       <
       section id = "match" >
@@ -163,10 +163,10 @@ class App extends Component {
       /> <
       Link to = '/' > < button > Restart < /button></Link >
       <
-      /section> <
-      /Route> <
-      /div> <
-      /Router>
+      /section> < /
+      Route > <
+      /div> < /
+      Router >
     );
   }
 }
