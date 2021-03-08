@@ -1,0 +1,24 @@
+#match-border {
+  /* height: 15%; */
+
+  /* margin: 10px 0; */
+  background-image: url("../../../img/vsline.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 160px;
+}
+
+#match-border span {
+  box-shadow: inset 1px 3px 5px black;
+  flex: 0 1 160px;
+  transition-duration: 0.4s ease-out;
+}
+#match-border span:hover {
+  box-shadow: inset 0px 0px 0px black;
+  flex: 0 1 160px;
+  background: rgba(40, 33, 44, 0.4);
+}

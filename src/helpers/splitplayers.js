@@ -1,7 +1,7 @@
 import shuffle from "./shuffle.js";
 
 //split list into A/B
-const split = players => {
+const split = (players) => {
   let pLA = [];
   let pLB = [];
   for (var i = 0; i < players.length; i++) {
@@ -13,22 +13,22 @@ const split = players => {
       pLB.push(players[i]);
     }
   }
-  if ( pLA.length > 0 && pLB.length > 0) {
-    if (pLA.length > pLB.length ) {
-  pLB.push(  {playerNames: ["BYE", "BYE"],
-    team: "BYE",
-    winToken: false,
-    played: false,
-    id:100});
-
-    }else if(pLA.length < pLB.length){
-          pLA.push( {playerNames: ["BYE", "BYE"],
-            team: "BYE",
-            winToken: false,
-            played: false,
-            id:100});
+  if (pLA.length > 0 && pLB.length > 0) {
+    if (pLA.length > pLB.length) {
+      pLB.push({
+        team: "BYE",
+        winToken: false,
+        played: false,
+        id: 100,
+      });
+    } else if (pLA.length < pLB.length) {
+      pLA.push({
+        team: "BYE",
+        winToken: false,
+        played: false,
+        id: 100,
+      });
     }
-
   }
   return [shuffle(pLA), shuffle(pLB)];
 };
