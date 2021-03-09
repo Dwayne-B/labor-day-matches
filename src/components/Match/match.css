@@ -1,0 +1,18 @@
+#match-container #start{
+
+  border-radius: 5px
+
+} #match-container {
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#matches {
+  background: rgba(87, 64, 96, 0.95);
+  border-radius: 15px;
+  padding: 5%;
+}
+.winner {
+  background-color: green;
+}

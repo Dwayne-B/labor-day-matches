@@ -1,0 +1,22 @@
+#nav-container {
+  border: solid white 2px;
+  margin: auto;
+  background: rgba(87, 64, 96, 0.95);
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  max-width: 1196px;
+}
+
+#nav-container button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 92.68px;
+  box-shadow: inset 1px 3px 5px black;
+  border: none;
+}
+#home-container #nav-container{
+  width: 100%;
+}

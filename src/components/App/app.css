@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#app-container {
+  background-image: url("./../../img/ram.svg");
+  background-repeat: no-repeat;
+  background-position: top -1em left 12em;
+  background-size: contain;
+  background-color: rgb(110, 57, 112);
+  height: 100vh;
+  width: 100vw;
+  /* border: solid green 2px; */
+}
+
+#home-container {
+  max-width: 1196px;
+  width: 83.055555555556%;
+  margin: auto;
+
+  /* padding: 65px 0; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#form-container,
+#roster-container {
+  background: rgba(87, 64, 96, 0.95);
+  /* border: solid 2px; */
+  border-radius: 15px;
+}
+#roster-container button {
+  border-radius: 5px;
+}
+#form-container,
+#roster-container {
+  margin: auto;
+  /* max-width: 666px; */
+  max-width: 1196px;
+  min-width: 100%;
+  /* width: 37.207357859532%; */
+}
+#form-container {
+  min-height: 118px;
+}
+#roster-container {
+  padding: 2%;
+  margin: 30px auto;
+  min-height: 246px;
+}
+#match-wrapper {
+  border: solid green 4px;
+  max-width: 1196px;
+  /* min-width: 100%; */
+
+margin: auto;
+  padding: 65px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*  */
+/*  */

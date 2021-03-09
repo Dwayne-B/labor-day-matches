@@ -1,0 +1,26 @@
+#signup-form {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#signup-form #signup-btn {
+  border: none;
+  transition: 0.3s;
+  text-transform: uppercase;
+  height: 35px;
+  border-radius: 0 5px 5px 0px;
+}
+input {
+  height: 35px;
+  border: none;
+  box-shadow: inset 1px 3px 5px black;
+}
+input[placeholder="Team Name"] {
+  border-radius: 5px 0 0 5px;
+  background: rgba(63, 53, 67, 0.4);
+  color: white;
+  padding: 2%;
+}

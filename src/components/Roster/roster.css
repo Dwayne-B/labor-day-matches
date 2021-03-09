@@ -1,0 +1,6 @@
+#roster {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

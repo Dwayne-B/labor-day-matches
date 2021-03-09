@@ -1,0 +1,6 @@
+#show-card {
+  background: rgba(63, 53, 67, 0.4);
+  padding: 2px;
+  flex: 0 1 175px;
+  box-shadow: inset 1px 3px 5px black;
+}
