@@ -8,7 +8,7 @@ import split from "../../helpers/splitplayers.js";
 // <BrowserRouter basename="/course-directory">
 //use this to add a  base router when sereved from a sub directory
 //use HashRouter instead much simpler
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // css
 import "./app.css";
 
@@ -145,7 +145,7 @@ class App extends Component {
                       this.clearPlayer();
                     }}
                   >
-                    Clear Players <i class="fa fa-minus-circle"></i>
+                    Clear Players <i className="fa fa-minus-circle"></i>
                   </button>
                 </section>
                 <Nav id="nav" />

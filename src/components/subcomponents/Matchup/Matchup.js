@@ -3,7 +3,7 @@ import "./matchup.css";
 const Matchup = (props) => {
   // console.log(props.matches.L2[props.index].id);
   // console.log(props.matches.L1[props.index].id);
-  const winner = () => {};
+
   return (
     <div id="match-border">
       <span
@@ -31,7 +31,3 @@ const Matchup = (props) => {
 };
 
 export default Matchup;
-// onClick={props.win}
-
-//
-//
