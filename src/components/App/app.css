@@ -16,10 +16,10 @@
 
 #home-container {
   max-width: 1196px;
-  /* width: 83.055555555556%; */
+  width: 83.055555555556%;
   margin: auto;
 
-  padding: 65px 0;
+  /* padding: 65px 0; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,8 @@
 #roster-container {
   margin: auto;
   /* max-width: 666px; */
-  min-width: 446px;
+  max-width: 1196px;
+  min-width: 100%;
   /* width: 37.207357859532%; */
 }
 #form-container {
@@ -51,11 +52,13 @@
 }
 #match-wrapper {
   max-width: 1196px;
+  /* min-width: 100%; */
 
-  /* width: 83.055555555556%; */
   margin: auto;
   padding: 65px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+/*  */
+/*  */

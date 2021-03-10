@@ -1,10 +1,7 @@
-#match-container button {
+#match-container #start {
   border-radius: 5px;
-  width: 100%;
 }
 #match-container {
-  min-width: 466px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

@@ -42,7 +42,7 @@ class Match extends Component {
     return (
       <div id="match-container" className="mb-5 ">
         <button
-          className="mb-5 btn btn-success"
+          className="mb-5 btn btn-warning"
           onClick={() => this.startTournament()}
           id="start"
         >
