@@ -1,7 +1,10 @@
 #match-container #start {
   border-radius: 5px;
 }
+
 #match-container {
+  overflow-x: hidden;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
