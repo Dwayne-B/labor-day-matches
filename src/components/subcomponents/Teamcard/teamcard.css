@@ -4,3 +4,10 @@
   flex: 0 1 175px;
   box-shadow: inset 1px 3px 5px black;
 }
+
+@media all and (max-width: 650px) {
+  #show-card {
+    padding: 2px;
+    flex: 0 1 100px;
+  }
+}
